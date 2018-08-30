@@ -1,0 +1,566 @@
+[
+    {
+        "name":"Sayonara Hatsukoi",
+        "package":"Arcaea",
+        "level":[1,4,6],
+        "defnum":["none","none","none"]
+    },
+    {
+        "name":"Brand new world",
+        "package":"Arcaea",
+        "level":[2,4,7],
+        "defnum":["none","none",7.9]
+    },
+    {
+        "name":"Clotho and the stargazer",
+        "package":"Arcaea",
+        "level":[2,5,7],
+        "defnum":["none","none",7.5]
+    },
+    {
+        "name":"Dement ~after legend~",
+        "package":"Arcaea",
+        "level":[3,6,7],
+        "defnum":["none","none",7.9]
+    },
+    {
+        "name":"Fairytale",
+        "package":"Arcaea",
+        "level":[1,3,7],
+        "defnum":["none","none",7.2]
+    },
+    {
+        "name":"Infinity Heaven",
+        "package":"Arcaea",
+        "level":[1,5,7],
+        "defnum":["none","none",7.6]
+    },
+    {
+        "name":"inkar-usi",
+        "package":"Arcaea",
+        "level":[2,4,7],
+        "defnum":["none","none",7.8]
+    },
+    {
+        "name":"Rise",
+        "package":"Arcaea",
+        "level":[2,4,7],
+        "defnum":["none","none",7.7]
+    },
+    {
+        "name":"Vexaria",
+        "package":"Arcaea",
+        "level":[2,5,7],
+        "defnum":["none","none",7.4]
+    },
+    {
+        "name":"Suomi",
+        "package":"Arcaea",
+        "level":[2,5,7],
+        "defnum":["none","none",7.7]
+    },
+    {
+        "name":"Babaroque",
+        "package":"Arcaea",
+        "level":[3,6,8],
+        "defnum":["none","none",8.7]
+    },
+    {
+        "name":"Dandelion",
+        "package":"Arcaea",
+        "level":[2,6,8],
+        "defnum":["none","none",8.6]
+    },
+    {
+        "name":"Harutopia ~Utopia of Spring~",
+        "package":"Arcaea",
+        "level":[1,4,8],
+        "defnum":["none","none",8.6]
+    },
+    {
+        "name":"Lucifer",
+        "package":"Arcaea",
+        "level":[3,5,8],
+        "defnum":["none","none",8.3]
+    },
+    {
+        "name":"One Last Drive",
+        "package":"Arcaea",
+        "level":[2,5,8],
+        "defnum":["none","none",8.0]
+    },
+    {
+        "name":"Rabbit In The Black Room",
+        "package":"Arcaea",
+        "level":[2,5,8],
+        "defnum":["none","none",8.5]
+    },
+    {
+        "name":"Reinvent",
+        "package":"Arcaea",
+        "level":[2,6,8],
+        "defnum":["none","none",8.6]
+    },
+    {
+        "name":"Shades of Light in a Transcendent Realm",
+        "package":"Arcaea",
+        "level":[3,6,8],
+        "defnum":["none","none",8.4]
+    },
+    {
+        "name":"Snow White",
+        "package":"Arcaea",
+        "level":[2,5,8],
+        "defnum":["none","none",8.6]
+    },
+    {
+        "name":"Bookmaker(2D Version)",
+        "package":"Arcaea",
+        "level":[4,6,8],
+        "defnum":["none","none",8.3]
+    },
+    {
+        "name":"Anokumene",
+        "package":"Arcaea",
+        "level":[2,6,9],
+        "defnum":["none","none",9.2]
+    },
+    {
+        "name":"Blaster",
+        "package":"Arcaea",
+        "level":[4,7,9],
+        "defnum":["none",7.0,9.5]
+    },
+    {
+        "name":"Chronostasis",
+        "package":"Arcaea",
+        "level":[3,7,9],
+        "defnum":["none",7.5,9.1]
+    },
+    {
+        "name":"Cybernecia Catharsis",
+        "package":"Arcaea",
+        "level":[4,7,9],
+        "defnum":["none",7.2,9.8]
+    },
+    {
+        "name":"Dreamin' Attraction!!",
+        "package":"Arcaea",
+        "level":[4,7,9],
+        "defnum":["none",7.6,9.8]
+    },
+    {
+        "name":"GOODTEK(Arcaea Edit)",
+        "package":"Arcaea",
+        "level":[4,6,9],
+        "defnum":["none","none",9.3]
+    },
+    {
+        "name":"Ignotus",
+        "package":"Arcaea",
+        "level":[3,6,9],
+        "defnum":["none","none",9.7]
+    },
+    {
+        "name":"Kanagawa Cyber Culvert",
+        "package":"Arcaea",
+        "level":[1,5,9],
+        "defnum":["none","none",9.0]
+    },
+    {
+        "name":"Lost Civilization",
+        "package":"Arcaea",
+        "level":[4,7,9],
+        "defnum":["none",7.3,9.5]
+    },
+    {
+        "name":"qualia -ideaesthesia-",
+        "package":"Arcaea",
+        "level":[5,7,9],
+        "defnum":["none",7.4,9.2]
+    },
+    {
+        "name":"Red and Blue",
+        "package":"Arcaea",
+        "level":[4,7,9],
+        "defnum":["none",7.7,9.7]
+    },
+    {
+        "name":"Syro",
+        "package":"Arcaea",
+        "level":[3,6,9],
+        "defnum":["none","none",9.5]
+    },
+    {
+        "name":"Illegal Paradise",
+        "package":"Arcaea",
+        "level":[2,7,9],
+        "defnum":["none",7.5,9.8]
+    },
+    {
+        "name":"Nhelv",
+        "package":"Arcaea",
+        "level":[3,6,9],
+        "defnum":["none",7.0,9.8]
+    },
+    {
+        "name":"Maze No.9",
+        "package":"Luminous Sky",
+        "level":[3,3,8],
+        "defnum":["none","none",8.9]
+    },
+    {
+        "name":"Sulfur",
+        "package":"Luminous Sky",
+        "level":[4,6,9],
+        "defnum":["none","none",9.8]
+    },
+    {
+        "name":"The Message",
+        "package":"Luminous Sky",
+        "level":[3,6,9],
+        "defnum":["none","none",9.7]
+    },
+    {
+        "name":"Ether Strike",
+        "package":"Luminous Sky",
+        "level":[5,8,9.5],
+        "defnum":["none",8.2,10.2]
+    },
+    {
+        "name":"Halcyon",
+        "package":"Luminous Sky",
+        "level":[5,8,9.5],
+        "defnum":["none",8.5,10.7]
+    },
+    {
+        "name":"Fracture Ray",
+        "package":"Luminous Sky",
+        "level":[0,9,10],
+        "defnum":["none",9.2,11.1]
+    },
+    {
+        "name":"Iconoclast",
+        "package":"Vicious Labyrinth",
+        "level":[4,7,9],
+        "defnum":["none",7.1,9.4]
+    },
+    {
+        "name":"SOUNDWiTCH",
+        "package":"Vicious Labyrinth",
+        "level":[3,6,9],
+        "defnum":["none","none",9.9]
+    },
+    {
+        "name":"trappola bewitching",
+        "package":"Vicious Labyrinth",
+        "level":[3,6,9],
+        "defnum":["none","none",10.0]
+    },
+    {
+        "name":"Axium Crisis",
+        "package":"Vicious Labyrinth",
+        "level":[5,8,9.5],
+        "defnum":["none",8.3,10.6]
+    },
+    {
+        "name":"conflict",
+        "package":"Vicious Labyrinth",
+        "level":[4,7,9.5],
+        "defnum":["none",7.6,10.2]
+    },
+    {
+        "name":"Grievous Lady",
+        "package":"Vicious Labyrinth",
+        "level":[0,9,10],
+        "defnum":["none",9.1,11.2]
+    },
+    {
+        "name":"cry of viyella",
+        "package":"Eternal Core",
+        "level":[3,6,8],
+        "defnum":["none","none",8.7]
+    },
+    {
+        "name":"I've heard it said",
+        "package":"Eternal Core",
+        "level":[3,6,8],
+        "defnum":["none","none",8.2]
+    },
+    {
+        "name":"Lumia",
+        "package":"Eternal Core",
+        "level":[2,6,8],
+        "defnum":["none","none",8.5]
+    },
+    {
+        "name":"memoryfactory.lzh",
+        "package":"Eternal Core",
+        "level":[2,5,8],
+        "defnum":["none","none",8.8]
+    },
+    {
+        "name":"Relentless",
+        "package":"Eternal Core",
+        "level":[4,6,8],
+        "defnum":["none","none",8.1]
+    },
+    {
+        "name":"Essence of Twilight",
+        "package":"Eternal Core",
+        "level":[4,7,9],
+        "defnum":["none",7.0,9.0]
+    },
+    {
+        "name":"PRAGMATISM",
+        "package":"Eternal Core",
+        "level":[4,8,9.5],
+        "defnum":["none",8.2,10.1]
+    },
+    {
+        "name":"Sheriruth",
+        "package":"Eternal Core",
+        "level":[5,7,9.5],
+        "defnum":["none",7.8,10.6]
+    },
+    {
+        "name":"next to you",
+        "package":"Binary Enfold",
+        "level":[4,7,8],
+        "defnum":["none",7.1,8.7]
+    },
+    {
+        "name":"Silent Rush",
+        "package":"Binary Enfold",
+        "level":[2,5,8],
+        "defnum":["none","none",8.4]
+    },
+    {
+        "name":"Memory Forest",
+        "package":"Binary Enfold",
+        "level":[3,6,9],
+        "defnum":["none","none",9.8]
+    },
+    {
+        "name":"Strongholds",
+        "package":"Binary Enfold",
+        "level":[2,5,9],
+        "defnum":["none","none",9.1]
+    },
+    {
+        "name":"Singularity",
+        "package":"Binary Enfold",
+        "level":[4,7,9.5],
+        "defnum":["none",7.5,10.4]
+    },
+    {
+        "name":"Blossoms",
+        "package":"Ambivalent Vision",
+        "level":[1,4,7],
+        "defnum":["none","none",7.6]
+    },
+    {
+        "name":"Romance Wars",
+        "package":"Ambivalent Vision",
+        "level":[1,4,7],
+        "defnum":["none","none",7.4]
+    },
+    {
+        "name":"Genesis",
+        "package":"Ambivalent Vision",
+        "level":[2,5,8],
+        "defnum":["none","none",8.4]
+    },
+    {
+        "name":"Moonheart",
+        "package":"Ambivalent Vision",
+        "level":[2,5,8],
+        "defnum":["none","none",8.5]
+    },
+    {
+        "name":"Lethaeus",
+        "package":"Ambivalent Vision",
+        "level":[3,6,9],
+        "defnum":["none","none",9.5]
+    },
+    {
+        "name":"Paradise",
+        "package":"Crimson Solace",
+        "level":[1,4,7],
+        "defnum":["none","none",7.8]
+    },
+    {
+        "name":"Flashback",
+        "package":"Crimson Solace",
+        "level":[2,5,8],
+        "defnum":["none","none",8.5]
+    },
+    {
+        "name":"Flyburg and Endroll",
+        "package":"Crimson Solace",
+        "level":[3,6,9],
+        "defnum":["none","none",9.2]
+    },
+    {
+        "name":"Party Vinyl",
+        "package":"Crimson Solace",
+        "level":[4,7,9],
+        "defnum":["none",7.6,9.8]
+    },
+    {
+        "name":"Nirv lucE",
+        "package":"Crimson Solace",
+        "level":[2,7,9.5],
+        "defnum":["none",7.5,10.3]
+    },
+    {
+        "name":"Dream goes on",
+        "package":"Lanota",
+        "level":[1,5,7],
+        "defnum":["none","none",7.5]
+    },
+    {
+        "name":"Journey",
+        "package":"Lanota",
+        "level":[3,6,8],
+        "defnum":["none","none",8.6]
+    },
+    {
+        "name":"Quon",
+        "package":"Lanota",
+        "level":[4,6,9],
+        "defnum":["none","none",9.7]
+    },
+    {
+        "name":"Specta",
+        "package":"Lanota",
+        "level":[3,6,9],
+        "defnum":["none","none",9.5]
+    },
+    {
+        "name":"cyanine",
+        "package":"Lanota",
+        "level":[4,7,9.5],
+        "defnum":["none",7.2,10.5]
+    },
+    {
+        "name":"Surrender",
+        "package":"Stellights",
+        "level":[3,6,8],
+        "defnum":["none","none",8.8]
+    },
+    {
+        "name":"Yosakura Fubui",
+        "package":"Stellights",
+        "level":[4,7,9],
+        "defnum":["none",7.2,9.6]
+    },
+    {
+        "name":"Moonlight of Sand Castle",
+        "package":"Dynamix",
+        "level":[1,5,7],
+        "defnum":["none","none",7.7]
+    },
+    {
+        "name":"Evoltex(poppi'n mix)",
+        "package":"Dynamix",
+        "level":[2,7,8],
+        "defnum":["none",7.1,8.9]
+    },
+    {
+        "name":"REconstruction",
+        "package":"Dynamix",
+        "level":[2,6,8],
+        "defnum":["none","none",8.7]
+    },
+    {
+        "name":"Oracle",
+        "package":"Dynamix",
+        "level":[3,5,9],
+        "defnum":["none","none",9.3]
+    },
+    {
+        "name":"aterlbus",
+        "package":"Dynamix",
+        "level":[4,7,9.5],
+        "defnum":["none",7.3,10.5]
+    },
+    {
+        "name":"Call My Name feat.Yukacco",
+        "package":"Memory Archive",
+        "level":[3,6,8],
+        "defnum":["none","none",8.8]
+    },
+    {
+        "name":"dropdead",
+        "package":"Memory Archive",
+        "level":[1,9,8],
+        "defnum":["none",9.5,9.1]
+    },
+    {
+        "name":"Auxesia",
+        "package":"Memory Archive",
+        "level":[3,6,9],
+        "defnum":["none","none",9.4]
+    },
+    {
+        "name":"Be There",
+        "package":"Memory Archive",
+        "level":[4,7,9],
+        "defnum":["none",7.5,9.6]
+    },
+    {
+        "name":"carmine:scythe",
+        "package":"Memory Archive",
+        "level":[4,7,9],
+        "defnum":["none",7.6,9.6]
+    },
+    {
+        "name":"CROSS+SOUL",
+        "package":"Memory Archive",
+        "level":[4,7,9],
+        "defnum":["none",7.6,9.6]
+    },
+    {
+        "name":"DataErr0r",
+        "package":"Memory Archive",
+        "level":[3,7,9],
+        "defnum":["none",7.5,9.5]
+    },
+    {
+        "name":"Fallensquare",
+        "package":"Memory Archive",
+        "level":[3,7,9],
+        "defnum":["none",6.5,9.8]
+    },
+    {
+        "name":"Impure Bird",
+        "package":"Memory Archive",
+        "level":[2,5,9],
+        "defnum":["none","none",9.5]
+    },
+    {
+        "name":"Modelista",
+        "package":"Memory Archive",
+        "level":[3,7,9],
+        "defnum":["none",7.4,10.0]
+    },
+    {
+        "name":"Your voice so... feat.Such",
+        "package":"Memory Archive",
+        "level":[3,6,9],
+        "defnum":["none","none",9.4]
+    },
+    {
+        "name":"Metallic Punisher",
+        "package":"Memory Archive",
+        "level":[3,7,9.5],
+        "defnum":["none",7.1,10.3]
+    },
+    {
+        "name":"guardina",
+        "package":"Memory Archive",
+        "level":[4,7,9.5],
+        "defnum":["none",7.4,10.5]
+    }
+]
