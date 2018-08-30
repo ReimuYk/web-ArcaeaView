@@ -3,564 +3,658 @@
         "name":"Sayonara Hatsukoi",
         "package":"Arcaea",
         "level":[1,4,6],
-        "defnum":["none","none","none"]
+        "defnum":["none","none","none"],
+        "songid":"sayonarahatsukoi"
     },
     {
         "name":"Brand new world",
         "package":"Arcaea",
         "level":[2,4,7],
-        "defnum":["none","none",7.9]
+        "defnum":["none","none",7.9],
+        "songid":"brandnewworld"
     },
     {
         "name":"Clotho and the stargazer",
         "package":"Arcaea",
         "level":[2,5,7],
-        "defnum":["none","none",7.5]
+        "defnum":["none","none",7.5],
+        "songid":"clotho"
     },
     {
         "name":"Dement ~after legend~",
         "package":"Arcaea",
         "level":[3,6,7],
-        "defnum":["none","none",7.9]
+        "defnum":["none","none",7.9],
+        "songid":"dement"
     },
     {
         "name":"Fairytale",
         "package":"Arcaea",
         "level":[1,3,7],
-        "defnum":["none","none",7.2]
+        "defnum":["none","none",7.2],
+        "songid":"fairytale"
     },
     {
         "name":"Infinity Heaven",
         "package":"Arcaea",
         "level":[1,5,7],
-        "defnum":["none","none",7.6]
+        "defnum":["none","none",7.6],
+        "songid":"infinityheaven"
     },
     {
         "name":"inkar-usi",
         "package":"Arcaea",
         "level":[2,4,7],
-        "defnum":["none","none",7.8]
+        "defnum":["none","none",7.8],
+        "songid":"inkarusi"
     },
     {
         "name":"Rise",
         "package":"Arcaea",
         "level":[2,4,7],
-        "defnum":["none","none",7.7]
+        "defnum":["none","none",7.7],
+        "songid":"rise"
     },
     {
         "name":"Vexaria",
         "package":"Arcaea",
         "level":[2,5,7],
-        "defnum":["none","none",7.4]
+        "defnum":["none","none",7.4],
+        "songid":"vexaria"
     },
     {
         "name":"Suomi",
         "package":"Arcaea",
         "level":[2,5,7],
-        "defnum":["none","none",7.7]
+        "defnum":["none","none",7.7],
+        "songid":"suomi"
     },
     {
         "name":"Babaroque",
         "package":"Arcaea",
         "level":[3,6,8],
-        "defnum":["none","none",8.7]
+        "defnum":["none","none",8.7],
+        "songid":"babaroque"
     },
     {
         "name":"Dandelion",
         "package":"Arcaea",
         "level":[2,6,8],
-        "defnum":["none","none",8.6]
+        "defnum":["none","none",8.6],
+        "songid":"dandelion"
     },
     {
         "name":"Harutopia ~Utopia of Spring~",
         "package":"Arcaea",
         "level":[1,4,8],
-        "defnum":["none","none",8.6]
+        "defnum":["none","none",8.6],
+        "songid":"harutopia"
     },
     {
         "name":"Lucifer",
         "package":"Arcaea",
         "level":[3,5,8],
-        "defnum":["none","none",8.3]
+        "defnum":["none","none",8.3],
+        "songid":"lucifer"
     },
     {
         "name":"One Last Drive",
         "package":"Arcaea",
         "level":[2,5,8],
-        "defnum":["none","none",8.0]
+        "defnum":["none","none",8.0],
+        "songid":"onelastdrive"
     },
     {
         "name":"Rabbit In The Black Room",
         "package":"Arcaea",
         "level":[2,5,8],
-        "defnum":["none","none",8.5]
+        "defnum":["none","none",8.5],
+        "songid":"rabbitintheblackroom"
     },
     {
         "name":"Reinvent",
         "package":"Arcaea",
         "level":[2,6,8],
-        "defnum":["none","none",8.6]
+        "defnum":["none","none",8.6],
+        "songid":"reinvent"
     },
     {
         "name":"Shades of Light in a Transcendent Realm",
         "package":"Arcaea",
         "level":[3,6,8],
-        "defnum":["none","none",8.4]
+        "defnum":["none","none",8.4],
+        "songid":"shadesoflight"
     },
     {
         "name":"Snow White",
         "package":"Arcaea",
         "level":[2,5,8],
-        "defnum":["none","none",8.6]
+        "defnum":["none","none",8.6],
+        "songid":"snowwhite"
     },
     {
         "name":"Bookmaker(2D Version)",
         "package":"Arcaea",
         "level":[4,6,8],
-        "defnum":["none","none",8.3]
+        "defnum":["none","none",8.3],
+        "songid":"bookmaker"
     },
     {
         "name":"Anokumene",
         "package":"Arcaea",
         "level":[2,6,9],
-        "defnum":["none","none",9.2]
+        "defnum":["none","none",9.2],
+        "songid":"anokumene"
     },
     {
         "name":"Blaster",
         "package":"Arcaea",
         "level":[4,7,9],
-        "defnum":["none",7.0,9.5]
+        "defnum":["none",7.0,9.5],
+        "songid":"blaster"
     },
     {
         "name":"Chronostasis",
         "package":"Arcaea",
         "level":[3,7,9],
-        "defnum":["none",7.5,9.1]
+        "defnum":["none",7.5,9.1],
+        "songid":"chronostasis"
     },
     {
         "name":"Cybernecia Catharsis",
         "package":"Arcaea",
         "level":[4,7,9],
-        "defnum":["none",7.2,9.8]
+        "defnum":["none",7.2,9.8],
+        "songid":"cyberneciacatharsis"
     },
     {
         "name":"Dreamin' Attraction!!",
         "package":"Arcaea",
         "level":[4,7,9],
-        "defnum":["none",7.6,9.8]
+        "defnum":["none",7.6,9.8],
+        "songid":"dreaminattraction"
     },
     {
         "name":"GOODTEK(Arcaea Edit)",
         "package":"Arcaea",
         "level":[4,6,9],
-        "defnum":["none","none",9.3]
+        "defnum":["none","none",9.3],
+        "songid":"goodtek"
     },
     {
         "name":"Ignotus",
         "package":"Arcaea",
         "level":[3,6,9],
-        "defnum":["none","none",9.7]
+        "defnum":["none","none",9.7],
+        "songid":"ignotus"
     },
     {
         "name":"Kanagawa Cyber Culvert",
         "package":"Arcaea",
         "level":[1,5,9],
-        "defnum":["none","none",9.0]
+        "defnum":["none","none",9.0],
+        "songid":"kanagawa"
     },
     {
         "name":"Lost Civilization",
         "package":"Arcaea",
         "level":[4,7,9],
-        "defnum":["none",7.3,9.5]
+        "defnum":["none",7.3,9.5],
+        "songid":"lostcivilization"
     },
     {
         "name":"qualia -ideaesthesia-",
         "package":"Arcaea",
         "level":[5,7,9],
-        "defnum":["none",7.4,9.2]
+        "defnum":["none",7.4,9.2],
+        "songid":"qualia"
     },
     {
         "name":"Red and Blue",
         "package":"Arcaea",
         "level":[4,7,9],
-        "defnum":["none",7.7,9.7]
+        "defnum":["none",7.7,9.7],
+        "songid":"redandblue"
     },
     {
         "name":"Syro",
         "package":"Arcaea",
         "level":[3,6,9],
-        "defnum":["none","none",9.5]
+        "defnum":["none","none",9.5],
+        "songid":"syro"
     },
     {
         "name":"Illegal Paradise",
         "package":"Arcaea",
         "level":[2,7,9],
-        "defnum":["none",7.5,9.8]
+        "defnum":["none",7.5,9.8],
+        "songid":"darakunosono"
     },
     {
         "name":"Nhelv",
         "package":"Arcaea",
         "level":[3,6,9],
-        "defnum":["none",7.0,9.8]
+        "defnum":["none",7.0,9.8],
+        "songid":"nhelv"
     },
     {
         "name":"Maze No.9",
         "package":"Luminous Sky",
         "level":[3,3,8],
-        "defnum":["none","none",8.9]
+        "defnum":["none","none",8.9],
+        "songid":"mazenine"
     },
     {
         "name":"Sulfur",
         "package":"Luminous Sky",
         "level":[4,6,9],
-        "defnum":["none","none",9.8]
+        "defnum":["none","none",9.8],
+        "songid":"sulfur"
     },
     {
         "name":"The Message",
         "package":"Luminous Sky",
         "level":[3,6,9],
-        "defnum":["none","none",9.7]
+        "defnum":["none","none",9.7],
+        "songid":"themessage"
     },
     {
         "name":"Ether Strike",
         "package":"Luminous Sky",
         "level":[5,8,9.5],
-        "defnum":["none",8.2,10.2]
+        "defnum":["none",8.2,10.2],
+        "songid":"etherstrike"
     },
     {
         "name":"Halcyon",
         "package":"Luminous Sky",
         "level":[5,8,9.5],
-        "defnum":["none",8.5,10.7]
+        "defnum":["none",8.5,10.7],
+        "songid":"halcyon"
     },
     {
         "name":"Fracture Ray",
         "package":"Luminous Sky",
         "level":[0,9,10],
-        "defnum":["none",9.2,11.1]
+        "defnum":["none",9.2,11.1],
+        "songid":"fractureray"
     },
     {
         "name":"Iconoclast",
         "package":"Vicious Labyrinth",
         "level":[4,7,9],
-        "defnum":["none",7.1,9.4]
+        "defnum":["none",7.1,9.4],
+        "songid":"iconoclast"
     },
     {
         "name":"SOUNDWiTCH",
         "package":"Vicious Labyrinth",
         "level":[3,6,9],
-        "defnum":["none","none",9.9]
+        "defnum":["none","none",9.9],
+        "songid":"soundwitch"
     },
     {
         "name":"trappola bewitching",
         "package":"Vicious Labyrinth",
         "level":[3,6,9],
-        "defnum":["none","none",10.0]
+        "defnum":["none","none",10.0],
+        "songid":"trappola"
     },
     {
         "name":"Axium Crisis",
         "package":"Vicious Labyrinth",
         "level":[5,8,9.5],
-        "defnum":["none",8.3,10.6]
+        "defnum":["none",8.3,10.6],
+        "songid":"axiumcrisis"
     },
     {
         "name":"conflict",
         "package":"Vicious Labyrinth",
         "level":[4,7,9.5],
-        "defnum":["none",7.6,10.2]
+        "defnum":["none",7.6,10.2],
+        "songid":"conflict"
     },
     {
         "name":"Grievous Lady",
         "package":"Vicious Labyrinth",
         "level":[0,9,10],
-        "defnum":["none",9.1,11.2]
+        "defnum":["none",9.1,11.2],
+        "songid":"grievouslady"
     },
     {
         "name":"cry of viyella",
         "package":"Eternal Core",
         "level":[3,6,8],
-        "defnum":["none","none",8.7]
+        "defnum":["none","none",8.7],
+        "songid":"viyella"
     },
     {
         "name":"I've heard it said",
         "package":"Eternal Core",
         "level":[3,6,8],
-        "defnum":["none","none",8.2]
+        "defnum":["none","none",8.2],
+        "songid":"hearditsaid"
     },
     {
         "name":"Lumia",
         "package":"Eternal Core",
         "level":[2,6,8],
-        "defnum":["none","none",8.5]
+        "defnum":["none","none",8.5],
+        "songid":"lumia"
     },
     {
         "name":"memoryfactory.lzh",
         "package":"Eternal Core",
         "level":[2,5,8],
-        "defnum":["none","none",8.8]
+        "defnum":["none","none",8.8],
+        "songid":"memoryfactory"
     },
     {
         "name":"Relentless",
         "package":"Eternal Core",
         "level":[4,6,8],
-        "defnum":["none","none",8.1]
+        "defnum":["none","none",8.1],
+        "songid":"relentless"
     },
     {
         "name":"Essence of Twilight",
         "package":"Eternal Core",
         "level":[4,7,9],
-        "defnum":["none",7.0,9.0]
+        "defnum":["none",7.0,9.0],
+        "songid":"essenceoftwilight"
     },
     {
         "name":"PRAGMATISM",
         "package":"Eternal Core",
         "level":[4,8,9.5],
-        "defnum":["none",8.2,10.1]
+        "defnum":["none",8.2,10.1],
+        "songid":"pragmatism"
     },
     {
         "name":"Sheriruth",
         "package":"Eternal Core",
         "level":[5,7,9.5],
-        "defnum":["none",7.8,10.6]
+        "defnum":["none",7.8,10.6],
+        "songid":"sheriruth"
     },
     {
         "name":"next to you",
         "package":"Binary Enfold",
         "level":[4,7,8],
-        "defnum":["none",7.1,8.7]
+        "defnum":["none",7.1,8.7],
+        "songid":"nexttoyou"
     },
     {
         "name":"Silent Rush",
         "package":"Binary Enfold",
         "level":[2,5,8],
-        "defnum":["none","none",8.4]
+        "defnum":["none","none",8.4],
+        "songid":"silentrush"
     },
     {
         "name":"Memory Forest",
         "package":"Binary Enfold",
         "level":[3,6,9],
-        "defnum":["none","none",9.8]
+        "defnum":["none","none",9.8],
+        "songid":"memoryforest"
     },
     {
         "name":"Strongholds",
         "package":"Binary Enfold",
         "level":[2,5,9],
-        "defnum":["none","none",9.1]
+        "defnum":["none","none",9.1],
+        "songid":"strongholds"
     },
     {
         "name":"Singularity",
         "package":"Binary Enfold",
         "level":[4,7,9.5],
-        "defnum":["none",7.5,10.4]
+        "defnum":["none",7.5,10.4],
+        "songid":"singularity"
     },
     {
         "name":"Blossoms",
         "package":"Ambivalent Vision",
         "level":[1,4,7],
-        "defnum":["none","none",7.6]
+        "defnum":["none","none",7.6],
+        "songid":"blossoms"
     },
     {
         "name":"Romance Wars",
         "package":"Ambivalent Vision",
         "level":[1,4,7],
-        "defnum":["none","none",7.4]
+        "defnum":["none","none",7.4],
+        "songid":"romancewars"
     },
     {
         "name":"Genesis",
         "package":"Ambivalent Vision",
         "level":[2,5,8],
-        "defnum":["none","none",8.4]
+        "defnum":["none","none",8.4],
+        "songid":"genesis"
     },
     {
         "name":"Moonheart",
         "package":"Ambivalent Vision",
         "level":[2,5,8],
-        "defnum":["none","none",8.5]
+        "defnum":["none","none",8.5],
+        "songid":"moonheart"
     },
     {
         "name":"Lethaeus",
         "package":"Ambivalent Vision",
         "level":[3,6,9],
-        "defnum":["none","none",9.5]
+        "defnum":["none","none",9.5],
+        "songid":"lethaeus"
     },
     {
         "name":"Paradise",
         "package":"Crimson Solace",
         "level":[1,4,7],
-        "defnum":["none","none",7.8]
+        "defnum":["none","none",7.8],
+        "songid":"paradise"
     },
     {
         "name":"Flashback",
         "package":"Crimson Solace",
         "level":[2,5,8],
-        "defnum":["none","none",8.5]
+        "defnum":["none","none",8.5],
+        "songid":"flashback"
     },
     {
         "name":"Flyburg and Endroll",
         "package":"Crimson Solace",
         "level":[3,6,9],
-        "defnum":["none","none",9.2]
+        "defnum":["none","none",9.2],
+        "songid":"flyburg"
     },
     {
         "name":"Party Vinyl",
         "package":"Crimson Solace",
         "level":[4,7,9],
-        "defnum":["none",7.6,9.8]
+        "defnum":["none",7.6,9.8],
+        "songid":"partyvinyl"
     },
     {
         "name":"Nirv lucE",
         "package":"Crimson Solace",
         "level":[2,7,9.5],
-        "defnum":["none",7.5,10.3]
+        "defnum":["none",7.5,10.3],
+        "songid":"nirvluce"
     },
     {
         "name":"Dream goes on",
         "package":"Lanota",
         "level":[1,5,7],
-        "defnum":["none","none",7.5]
+        "defnum":["none","none",7.5],
+        "songid":"dreamgoeson"
     },
     {
         "name":"Journey",
         "package":"Lanota",
         "level":[3,6,8],
-        "defnum":["none","none",8.6]
+        "defnum":["none","none",8.6],
+        "songid":"journey"
     },
     {
         "name":"Quon",
         "package":"Lanota",
         "level":[4,6,9],
-        "defnum":["none","none",9.7]
+        "defnum":["none","none",9.7],
+        "songid":"quon"
     },
     {
         "name":"Specta",
         "package":"Lanota",
         "level":[3,6,9],
-        "defnum":["none","none",9.5]
+        "defnum":["none","none",9.5],
+        "songid":"specta"
     },
     {
         "name":"cyanine",
         "package":"Lanota",
         "level":[4,7,9.5],
-        "defnum":["none",7.2,10.5]
+        "defnum":["none",7.2,10.5],
+        "songid":"cyanine"
     },
     {
         "name":"Surrender",
         "package":"Stellights",
         "level":[3,6,8],
-        "defnum":["none","none",8.8]
+        "defnum":["none","none",8.8],
+        "songid":"surrender"
     },
     {
-        "name":"Yosakura Fubui",
+        "name":"Yosakura Fubuki",
         "package":"Stellights",
         "level":[4,7,9],
-        "defnum":["none",7.2,9.6]
+        "defnum":["none",7.2,9.6],
+        "songid":"yozakurafubuki"
     },
     {
         "name":"Moonlight of Sand Castle",
         "package":"Dynamix",
         "level":[1,5,7],
-        "defnum":["none","none",7.7]
+        "defnum":["none","none",7.7],
+        "songid":"moonlightofsandcastle"
     },
     {
         "name":"Evoltex(poppi'n mix)",
         "package":"Dynamix",
         "level":[2,7,8],
-        "defnum":["none",7.1,8.9]
+        "defnum":["none",7.1,8.9],
+        "songid":"evoltex"
     },
     {
         "name":"REconstruction",
         "package":"Dynamix",
         "level":[2,6,8],
-        "defnum":["none","none",8.7]
+        "defnum":["none","none",8.7],
+        "songid":"reconstruction"
     },
     {
         "name":"Oracle",
         "package":"Dynamix",
         "level":[3,5,9],
-        "defnum":["none","none",9.3]
+        "defnum":["none","none",9.3],
+        "songid":"oracle"
     },
     {
         "name":"aterlbus",
         "package":"Dynamix",
         "level":[4,7,9.5],
-        "defnum":["none",7.3,10.5]
+        "defnum":["none",7.3,10.5],
+        "songid":"aterlbus"
     },
     {
         "name":"Call My Name feat.Yukacco",
         "package":"Memory Archive",
         "level":[3,6,8],
-        "defnum":["none","none",8.8]
+        "defnum":["none","none",8.8],
+        "songid":"callmyname"
     },
     {
         "name":"dropdead",
         "package":"Memory Archive",
         "level":[1,9,8],
-        "defnum":["none",9.5,9.1]
+        "defnum":["none",9.5,9.1],
+        "songid":"dropdead"
     },
     {
         "name":"Auxesia",
         "package":"Memory Archive",
         "level":[3,6,9],
-        "defnum":["none","none",9.4]
+        "defnum":["none","none",9.4],
+        "songid":"auxesia"
     },
     {
         "name":"Be There",
         "package":"Memory Archive",
         "level":[4,7,9],
-        "defnum":["none",7.5,9.6]
+        "defnum":["none",7.5,9.6],
+        "songid":"bethere"
     },
     {
         "name":"carmine:scythe",
         "package":"Memory Archive",
         "level":[4,7,9],
-        "defnum":["none",7.6,9.6]
+        "defnum":["none",7.6,9.6],
+        "songid":"carminescythe"
     },
     {
         "name":"CROSS+SOUL",
         "package":"Memory Archive",
         "level":[4,7,9],
-        "defnum":["none",7.6,9.6]
+        "defnum":["none",7.6,9.6],
+        "songid":"crosssoul"
     },
     {
         "name":"DataErr0r",
         "package":"Memory Archive",
         "level":[3,7,9],
-        "defnum":["none",7.5,9.5]
+        "defnum":["none",7.5,9.5],
+        "songid":"dataerror"
     },
     {
         "name":"Fallensquare",
         "package":"Memory Archive",
         "level":[3,7,9],
-        "defnum":["none",6.5,9.8]
+        "defnum":["none",6.5,9.8],
+        "songid":"fallensquare"
     },
     {
         "name":"Impure Bird",
         "package":"Memory Archive",
         "level":[2,5,9],
-        "defnum":["none","none",9.5]
+        "defnum":["none","none",9.5],
+        "songid":"impurebird"
     },
     {
         "name":"Modelista",
         "package":"Memory Archive",
         "level":[3,7,9],
-        "defnum":["none",7.4,10.0]
+        "defnum":["none",7.4,10.0],
+        "songid":"modelista"
     },
     {
         "name":"Your voice so... feat.Such",
         "package":"Memory Archive",
         "level":[3,6,9],
-        "defnum":["none","none",9.4]
+        "defnum":["none","none",9.4],
+        "songid":"yourvoiceso"
     },
     {
         "name":"Metallic Punisher",
         "package":"Memory Archive",
         "level":[3,7,9.5],
-        "defnum":["none",7.1,10.3]
+        "defnum":["none",7.1,10.3],
+        "songid":"metallicpunisher"
     },
     {
         "name":"guardina",
         "package":"Memory Archive",
         "level":[4,7,9.5],
-        "defnum":["none",7.4,10.5]
+        "defnum":["none",7.4,10.5],
+        "songid":"guardina"
     }
 ]
