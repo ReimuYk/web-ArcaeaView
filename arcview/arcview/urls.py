@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^$', view.hello),
     url(r'^testlist/$', view.testlist),
     url(r'^arclist/$', view.arclist),
+    url(r'^update/$', view.refreshdata),
 ]

@@ -6,6 +6,8 @@ from django.template import Context, Template
 import base64
 import json
 import os
+import time
+import arcview.score_friend as sf
 
 def hello(request):
     resp = [{'errorcode': '100', 'detail': 'Get success'}]
@@ -27,6 +29,8 @@ def arclist(req):
         return None
     f = open("arcview/userdata/%s.csv"%username,'r')
     data = f.readlines()
+    filemt = time.localtime(os.stat("arcview/userdata/%s.csv"%username).st_mtime)
+    fmt = time.strftime("%Y-%m-%d %H:%M:%S",filemt)
     f.close()
     for i in range(len(data)):
         tmplist = data[i].split(',')
@@ -36,4 +40,20 @@ def arclist(req):
         for j in range(len(cons)):
             tmpdict[cons[j]]=tmplist[j]
         data[i] = tmpdict
-    return render(req,'arclist.html',{'songlist':data})
+    return render(req,'arclist.html',{'songlist':data,'updatetime':fmt})
+
+def refreshdata(req):
+    pwd=req.GET.get("password")
+    if pwd!="yukidaisuki":
+        return HttpResponse("password error")
+    dt = sf.getdata()
+    for user in list(dt):
+        f = open('arcview/userdata/%s.csv'%user,'w')
+        for song in dt[user]:
+            tmp = []
+            for it in song:
+                tmp.append(str(it))
+            f.write(','.join(tmp))
+            f.write('\n')
+        f.close()
+    return HttpResponse("Success!")

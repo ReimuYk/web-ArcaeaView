@@ -11,10 +11,18 @@ appversion = "1.7.4c"
 authkey = "Bearer r618zkw9Zy76JnlZhR+BOz2Cw4zAi/ja5jPkZ07pvLc="
 
 def loadsongs():
-    f = open("song.json","r")
-    t = f.read()
-    f.close()
-    return eval(t)
+    try:
+        f = open("song.json","r")
+        t = f.read()
+        f.close()
+        print("single run mode")
+        return eval(t)
+    except:
+        f = open("arcview/song.json","r")
+        t = f.read()
+        f.close()
+        print("web run mode")
+        return eval(t)
 
 def getdata():
     global appversion,authkey
@@ -103,14 +111,15 @@ def getfriendlist():
     resp = eval(resp.text.replace("true","True").replace("false","False"))
     return resp["value"][0]["value"]["friends"]
 
-dt = getdata()
-for user in list(dt):
-    f = open(user+'.csv','w')
-    for song in dt[user]:
-        tmp = []
-        for it in song:
-            tmp.append(str(it))
-        f.write(','.join(tmp))
-        f.write('\n')
-    f.close()
+if __name__=="__main__":
+    dt = getdata()
+    for user in list(dt):
+        f = open(user+'.csv','w')
+        for song in dt[user]:
+            tmp = []
+            for it in song:
+                tmp.append(str(it))
+            f.write(','.join(tmp))
+            f.write('\n')
+        f.close()
 
