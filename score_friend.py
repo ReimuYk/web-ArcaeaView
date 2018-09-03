@@ -7,6 +7,8 @@ warnings.filterwarnings('ignore')
 
 songid = "grievouslady"
 url = r"https://arcapi.lowiro.com/4/score/song/friend?song_id=%s&difficulty=1&start=0&limit=10"%songid
+appversion = "1.7.4c"
+authkey = "Bearer r618zkw9Zy76JnlZhR+BOz2Cw4zAi/ja5jPkZ07pvLc="
 
 def loadsongs():
     f = open("song.json","r")
@@ -15,12 +17,13 @@ def loadsongs():
     return eval(t)
 
 def getdata():
+    global appversion,authkey
     res = {}
     header = {
         "Accept-Encoding":"identity",
         "Content-Type":r"application/x-www-form-urlencoded; charset=utf-8",
-        "Authorization":"Bearer Clg3N0Og8ngL6+KK4a10IT0rmma9Ft89cZxYDTzb6zQ=",
-        "AppVersion":"1.7.2c",
+        "Authorization":authkey,
+        "AppVersion":appversion,
         "User-Agent":r"Dalvik/1.6.0 (Linux; U; Android 4.4.4; G750-T20 Build/KTU84P)",
         "Host":"arcapi.lowiro.com",
         "Connection":"Keep-Alive"
@@ -46,14 +49,15 @@ def getdata():
     return res
 
 def addfriend(uid):
+    global appversion,authkey
     url = r"https://arcapi.lowiro.com/4/friend/me/add"
     header = {
         "Accept-Encoding":"identity",
         "User-Agent":r"Dalvik/1.6.0 (Linux; U; Android 4.4.4; G750-T20 Build/KTU84P)",
         "Content-Length":str(len(uid)+12),
         "Content-Type":r"application/x-www-form-urlencoded; charset=utf-8",
-        "AppVersion":"1.7.2c",
-        "Authorization":"Bearer Clg3N0Og8ngL6+KK4a10IT0rmma9Ft89cZxYDTzb6zQ=",
+        "AppVersion":appversion,
+        "Authorization":authkey,
         "Host":"arcapi.lowiro.com",
         "Connection":"Keep-Alive"
         }
@@ -61,14 +65,15 @@ def addfriend(uid):
     resp = s.post(url,headers=header,data=body.encode(),verify=False)
     print(resp.text)
 def deletefriend(fid):
+    global appversion,authkey
     url = r"https://arcapi.lowiro.com/4/friend/me/delete"
     header = {
         "Accept-Encoding":"identity",
         "User-Agent":r"Dalvik/1.6.0 (Linux; U; Android 4.4.4; G750-T20 Build/KTU84P)",
         "Content-Length":str(len(fid)+10),
         "Content-Type":r"application/x-www-form-urlencoded; charset=utf-8",
-        "AppVersion":"1.7.2c",
-        "Authorization":"Bearer Clg3N0Og8ngL6+KK4a10IT0rmma9Ft89cZxYDTzb6zQ=",
+        "AppVersion":appversion,
+        "Authorization":authkey,
         "Host":"arcapi.lowiro.com",
         "Connection":"Keep-Alive"
         }
@@ -76,12 +81,13 @@ def deletefriend(fid):
     resp = s.post(url,headers=header,data=body.encode(),verify=False)
     print(resp.text)
 def getfriendlist():
+    global appversion,authkey
     url = r"https://arcapi.lowiro.com/4/compose/aggregate?calls=%5B%7B%20%22endpoint%22%3A%20%22user%2Fme%22%2C%20%22id%22%3A%200%20%7D%2C%20%7B%20%22endpoint%22%3A%20%22purchase%2Fbundle%2Fpack%22%2C%20%22id%22%3A%201%20%7D%5D"
     header = {
         "Accept-Encoding":"identity",
         "Content-Type":r"application/x-www-form-urlencoded; charset=utf-8",
-        "Authorization":"Bearer Clg3N0Og8ngL6+KK4a10IT0rmma9Ft89cZxYDTzb6zQ=",
-        "AppVersion":"1.7.2c",
+        "Authorization":authkey,
+        "AppVersion":appversion,
         "User-Agent":r"Dalvik/1.6.0 (Linux; U; Android 4.4.4; G750-T20 Build/KTU84P)",
         "Host":"arcapi.lowiro.com",
         "Connection":"Keep-Alive"
@@ -89,5 +95,15 @@ def getfriendlist():
     resp = s.get(url,headers=header,verify=False)
     resp = eval(resp.text.replace("true","True").replace("false","False"))
     return resp["value"][0]["value"]["friends"]
-fl = getfriendlist()
+
+dt = getdata()
+for user in list(dt):
+    f = open(user+'.csv','w')
+    for song in dt[user]:
+        tmp = []
+        for it in song:
+            tmp.append(str(it))
+        f.write(','.join(tmp))
+        f.write('\n')
+    f.close()
 
