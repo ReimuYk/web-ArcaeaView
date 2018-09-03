@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Arcaea</title>
+
+	<style type="text/css">
+
+table.dataintable {
+	margin-top:15px;
+	border-collapse:collapse;
+	border:1px solid #aaa;
+	width:1000px;
+	margin:auto;
+	}
+
+table.dataintable th {
+	vertical-align:baseline;
+	padding:5px 15px 5px 6px;
+	background-color:#3F3F3F;
+	border:1px solid #3F3F3F;
+	text-align:left;
+	color:#fff;
+	}
+
+table.dataintable td {
+	vertical-align:text-top;
+	padding:6px 15px 6px 6px;
+	border:1px solid #aaa;
+	}
+
+table.dataintable tr:nth-child(odd) {
+	background-color:#fff;
+}
+
+table.dataintable tr:nth-child(even) {
+	background-color:#F5F5F5;
+}
+
+
+	</style>
+	
+</head>
+<body>
+<table class="dataintable">
+	<thead>
+		<th>#</th>
+		<th>Title</th>
+		<th>Difficulty</th>
+		<th>Score</th>
+		<th>PURE</th>
+		<th>pure</th>
+		<th>far</th>
+		<th>lost</th>
+		<th>Rating</th>
+	</thead>
+	{% for song in songlist %}
+		<tr>
+			<td>{{ song.num }}</th>
+			<td>{{ song.title }}</td>
+			<td>{{ song.difficulty }}</td>
+			<td>{{ song.score }}</td>
+			<td>{{ song.perfect }}</td>
+			<td>{{ song.pure }}</td>
+			<td>{{ song.far }}</td>
+			<td>{{ song.lost }}</td>
+			<td>{{ song.rating }}</td>
+        </tr>
+	{% endfor %}
+</table>
+</body>
+</html>

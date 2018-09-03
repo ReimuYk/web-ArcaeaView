@@ -29,7 +29,7 @@ def getdata():
         "Connection":"Keep-Alive"
         }
     songlist = loadsongs()
-    cons = ["name","song_id","difficulty","score","shiny_perfect_count","perfect_count","near_count","miss_count","rating"]
+    cons = ["difficulty","score","shiny_perfect_count","perfect_count","near_count","miss_count","rating"]
     for song in songlist:
         for i in range(3):
             url = r"https://arcapi.lowiro.com/4/score/song/friend?song_id=%s&difficulty=%d&start=0&limit=10"%(song["songid"],i)
@@ -38,14 +38,21 @@ def getdata():
             resp = eval(resp.text.replace("true","True").replace("false","False"))
             for userdata in resp["value"]:
                 line = []
+                line.append(song["name"])
                 for c in cons:
                     line.append(userdata[c])
+                if line[1]==2:
+                    line[1]="Future"
+                elif line[1]==1:
+                    line[1]="Present"
+                elif line[1]==0:
+                    line[1]="Past"
                 try:
                     res[userdata["name"]].append(line)
                 except:
                     res[userdata["name"]]=[line]
     for user in list(res):
-        res[user] = sorted(res[user],key=lambda u:u[8],reverse=True)
+        res[user] = sorted(res[user],key=lambda u:u[7],reverse=True)
     return res
 
 def addfriend(uid):

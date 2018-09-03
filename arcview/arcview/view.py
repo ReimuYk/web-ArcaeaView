@@ -20,3 +20,20 @@ def testlist(req):
         print("no username")
     data = [{'id':1,'name':'name1'},{'id':2,'name':'name2'}]
     return render(req,'testlist.html',{'testlist':data})
+
+def arclist(req):
+    username=req.GET.get("username")
+    if username==None:
+        return None
+    f = open("arcview/userdata/%s.csv"%username,'r')
+    data = f.readlines()
+    f.close()
+    for i in range(len(data)):
+        tmplist = data[i].split(',')
+        tmpdict = {}
+        tmpdict["num"] = i+1
+        cons=["title","difficulty","score","perfect","pure","far","lost","rating"]
+        for j in range(len(cons)):
+            tmpdict[cons[j]]=tmplist[j]
+        data[i] = tmpdict
+    return render(req,'arclist.html',{'songlist':data})
