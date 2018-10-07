@@ -105,6 +105,13 @@
         "songid":"onelastdrive"
     },
     {
+        "name":"Purgatorium",
+        "package":"Arcaea",
+        "level":[2,6,8],
+        "defnum":["none","none",8.0],
+        "songid":"purgatorium"
+    },
+    {
         "name":"Rabbit In The Black Room",
         "package":"Arcaea",
         "level":[2,5,8],
@@ -229,6 +236,13 @@
         "level":[2,7,9],
         "defnum":["none",7.5,9.8],
         "songid":"darakunosono"
+    },
+    {
+        "name":"LunarOrbit -believe in the Espebranch road-",
+        "package":"Arcaea",
+        "level":[3,6,9],
+        "defnum":["none",7.0,9.8],
+        "songid":"espebranch"
     },
     {
         "name":"Nhelv",
@@ -581,6 +595,13 @@
         "songid":"dropdead"
     },
     {
+        "name":"Alexandrite",
+        "package":"Memory Archive",
+        "level":[4,7,9],
+        "defnum":["none",9.5,9.1],
+        "songid":"alexandrite"
+    },
+    {
         "name":"Auxesia",
         "package":"Memory Archive",
         "level":[3,6,9],
@@ -656,5 +677,40 @@
         "level":[4,7,9.5],
         "defnum":["none",7.4,10.5],
         "songid":"guardina"
+    },
+    {
+	"name":"Hikari",
+	"package":"Tone Sphere",
+	"level":[2,6,8],
+	"defnum":["","",""],
+	"songid":"hikari"
+    },
+    {
+	"name":"Linear Accelerator",
+	"package":"Tone Sphere",
+	"level":[2,6,9],
+	"defnum":["","",""],
+	"songid":"linearaccelerator"
+    },
+    {
+	"name":"Hall of Mirrors",
+	"package":"Tone Sphere",
+	"level":[3,5,8],
+	"defnum":["","",""],
+	"songid":"hallofmirrors"
+    },
+    {
+	"name":"STAGER(ALL STAGE CLEAR)",
+	"package":"Tone Sphere",
+	"level":[3,6,9],
+	"defnum":["","",""],
+	"songid":"stager"
+    },
+    {
+	"name":"Tiferet",
+	"package":"Tone Sphere",
+	"level":[4,7,9.5],
+	"defnum":["","",""],
+	"songid":"tiferet"
     }
 ]
